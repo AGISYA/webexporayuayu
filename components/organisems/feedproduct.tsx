@@ -12,7 +12,7 @@ export default function FeedProduct() {
   ];
 
   return (
-    <div className="min-h-screen grid grid-rows-2 grid-cols-4 gap-4 bg-gray-100 p-4">
+    <div className="min-h-screen grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 bg-gray-100 p-4">
       {/* Baris Atas: Gambar 1-4 */}
       <div className="relative rounded-lg overflow-hidden shadow-lg">
         <Image
@@ -56,7 +56,7 @@ export default function FeedProduct() {
           className="object-cover"
         />
       </div>
-      <div className="relative rounded-lg overflow-hidden shadow-lg col-span-2">
+      <div className="relative rounded-lg overflow-hidden shadow-lg col-span-1 sm:col-span-2 md:col-span-2 lg:col-span-2">
         <Image
           src={images[5].src}
           alt={images[5].alt}

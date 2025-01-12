@@ -54,8 +54,8 @@ const Blogs = () => {
           {componentsblogs.map((blog, index) => (
             <div key={index} className="p-4">
               {/* Flex container to align image and content */}
-              <div className="flex">
-                <div className="w-1/3 pr-4">
+              <div className="flex flex-col md:flex-row">
+                <div className="w-full md:w-1/3 mb-4 md:mb-0 pr-4">
                   <Image
                     src={blog.image}
                     alt={blog.title}
@@ -64,7 +64,7 @@ const Blogs = () => {
                     className="w-full h-auto rounded-lg"
                   />
                 </div>
-                <div className="w-2/3">
+                <div className="w-full md:w-2/3">
                   <h2 className="text-2xl font-semibold">
                     <Link
                       href={blog.url}

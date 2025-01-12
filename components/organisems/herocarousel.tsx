@@ -52,9 +52,13 @@ const Carousel = () => {
               alt={item.title}
               className="w-full h-full object-cover"
             />
-            <div className="absolute mx-24 top-1/2 left-0 transform -translate-y-1/2 px-8 py-4 text-white w-1/2">
-              <h2 className="text-5xl font-bold">{item.title}</h2>
-              <p className="text-2xl">{item.description}</p>
+            <div className="absolute md:mx-36 left-0 top-1/2 transform -translate-y-1/2 px-8 py-4 text-white w-full sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4">
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold">
+                {item.title}
+              </h2>
+              <p className="text-lg sm:text-xl md:text-2xl">
+                {item.description}
+              </p>
             </div>
           </div>
         ))}
