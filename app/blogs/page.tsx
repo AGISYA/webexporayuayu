@@ -2,6 +2,7 @@
 import Footer from "@/components/organisems/footer";
 import Navbar from "@/components/organisems/navbar";
 import Link from "next/link";
+import Image from "next/image"; // Import the Image component from Next.js
 
 const Blogs = () => {
   // Data blog with images
@@ -55,9 +56,11 @@ const Blogs = () => {
               {/* Flex container to align image and content */}
               <div className="flex">
                 <div className="w-1/3 pr-4">
-                  <img
+                  <Image
                     src={blog.image}
                     alt={blog.title}
+                    width={500} // Set a fixed width for the image
+                    height={300} // Set a fixed height for the image
                     className="w-full h-auto rounded-lg"
                   />
                 </div>
