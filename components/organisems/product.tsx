@@ -1,47 +1,56 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 const products = [
   {
-    title: "Produk 1",
+    title: "Fried Chicken",
     imageSrc: "/images/chicken6.jpg",
     alt: "Product 1",
+    slug: "fried-chicken", // Add a slug for each product
   },
   {
-    title: "Produk 2",
+    title: "Chicken Package A",
     imageSrc: "/images/chicken50.jpg",
     alt: "Product 2",
+    slug: "chicken-package-a",
   },
   {
-    title: "Produk 3",
+    title: "Chicken Package B",
     imageSrc: "/images/banner7.jpg",
     alt: "Product 3",
+    slug: "chicken-package-b",
   },
   {
-    title: "Produk 4",
+    title: "Chicken Package C",
     imageSrc: "/images/banner10.jpg",
     alt: "Product 4",
+    slug: "chicken-package-c",
   },
   {
-    title: "Produk 5",
+    title: "Chicken Popcorn",
     imageSrc: "/images/chicken30.jpg",
     alt: "Product 5",
+    slug: "chicken-popcorn",
   },
   {
-    title: "Produk 6",
+    title: "Chicken Crispy",
     imageSrc: "/images/banner18.jpg",
     alt: "Product 6",
+    slug: "chicken-crispy",
   },
   {
-    title: "Produk 7",
+    title: "Chicken Wings",
     imageSrc: "/images/chicken1.jpg",
     alt: "Product 7",
+    slug: "chicken-wings",
   },
   {
-    title: "Produk 8",
+    title: "Chicken Sesame",
     imageSrc: "/images/chicken54.jpg",
     alt: "Product 8",
+    slug: "chicken-sesame",
   },
 ];
 
@@ -70,20 +79,23 @@ const Product = () => {
             key={index}
             className="flex flex-col items-center justify-center"
           >
-            {/* Gambar Produk */}
-            <div className="w-64 h-64 overflow-hidden rounded-lg shadow-lg mb-4">
-              <Image
-                src={product.imageSrc}
-                alt={product.alt}
-                className="w-full h-full object-cover"
-                width={400}
-                height={300}
-              />
-            </div>
-            {/* Title Produk */}
-            <h3 className="text-xl font-semibold text-gray-700">
-              {product.title}
-            </h3>
+            {/* Link to Product Detail Page */}
+            <Link href={`/item/${product.slug}`} passHref>
+              {/* Product Image */}
+              <div className="w-64 h-64 overflow-hidden rounded-lg shadow-lg mb-4">
+                <Image
+                  src={product.imageSrc}
+                  alt={product.alt}
+                  className="w-full h-full object-cover"
+                  width={400}
+                  height={300}
+                />
+              </div>
+              {/* Product Title */}
+              <h3 className="text-xl font-semibold text-gray-700">
+                {product.title}
+              </h3>
+            </Link>
           </div>
         ))}
       </div>
