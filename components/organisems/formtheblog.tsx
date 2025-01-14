@@ -3,30 +3,28 @@ import Image from "next/image";
 export default function FormTheBlog() {
   const blogs = [
     {
-      title: "Wing Frenzy: Indulging in the Savory Delights of Chicken Wings",
+      title: "Bubur Kacang Hijau: Nikmatnya Sarapan Tradisional",
       description:
-        "Fried chicken is a beloved dish that has found its way into hearts and homes ...",
-      image: "/images/chicken6 (1).jpg", // Replace with your image URL
+        "Bubur kacang hijau adalah sajian tradisional khas Indonesia yang menawarkan kelezatan manis dan gurih...",
+      image: "/images/edited-9484.jpg", // Replace with your image URL
     },
     {
-      title:
-        "Sesame Sensations: Unveiling the Delicious World of Chicken Sesame",
+      title: "Sate Madura: Sensasi Bumbu Kacang yang Menggoda",
       description:
-        "Fried chicken is a beloved dish that has found its way into hearts and homes ...",
-      image: "/images/chicken31.jpg", // Replace with your image URL
+        "Sate Madura merupakan salah satu ikon kuliner Indonesia dengan cita rasa bumbu kacang yang kaya...",
+      image: "/images/sate madura.jpg", // Replace with your image URL
     },
     {
-      title:
-        "Popcorn Pleasures: Exploring the Crispy Delights of Chicken Popcorn",
+      title: "Soto Betawi: Perpaduan Gurih Santan dan Daging Sapi",
       description:
-        "Fried chicken is a beloved dish that has found its way into hearts and homes ...",
-      image: "/images/banner14.jpg", // Replace with your image URL
+        "Soto Betawi adalah makanan khas Jakarta yang terkenal dengan kuah santan dan potongan daging sapi...",
+      image: "/images/soto betawi.jpg", // Replace with your image URL
     },
     {
-      title: "Crispy Creations: Diving into the World of Fried Chicken Bites",
+      title: "Nasi Goreng Tektek Beef Slice: Gurih dan Menggoda",
       description:
-        "Fried chicken is a beloved dish that has found its way into hearts and homes ...",
-      image: "/images/chicken17.jpg", // Replace with your image URL
+        "Nasi goreng tektek dengan irisan beef slice adalah pilihan sempurna untuk makan malam yang cepat dan lezat...",
+      image: "/images/nasgor tektek beef slice.jpg", // Replace with your image URL
     },
   ];
 
@@ -37,8 +35,8 @@ export default function FormTheBlog() {
           From The Blog
         </h2>
         <p className="mt-4 text-center text-gray-600">
-          You can see our blog here, click to see blog details. Discover our
-          daily activity, product process, and more.
+          Anda dapat melihat blog kami di sini, klik untuk melihat detail blog.
+          Temukan aktivitas harian, proses produk, dan lainnya.
         </p>
         <div className="mt-10 overflow-x-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200 hover:scrollbar-thumb-gray-600 scroll-smooth">
           <div className="flex space-x-8">
@@ -52,7 +50,7 @@ export default function FormTheBlog() {
                   alt={blog.title}
                   width={320}
                   height={200}
-                  className="rounded-t-lg object-cover"
+                  className="rounded-t-lg object-cover w-full h-40"
                 />
                 <div className="p-4">
                   <h3 className="text-lg font-semibold text-gray-800">

@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function FeedProduct() {
   const images = [
-    { src: "/images/chicken51.jpg", alt: "Image 1" },
-    { src: "/images/chicken49.jpg", alt: "Image 2" },
-    { src: "/images/chicken47.jpg", alt: "Image 3" },
-    { src: "/images/chicken41.jpg", alt: "Image 4" },
-    { src: "/images/chicken36.jpg", alt: "Image 5" },
-    { src: "/images/banner16.jpg", alt: "Image 6" },
-    { src: "/images/chicken35.jpg", alt: "Image 7" },
+    { src: "/images/43.jpg", alt: "Image 1" },
+    { src: "/images/70.jpg", alt: "Image 2" },
+    { src: "/images/66.jpg", alt: "Image 3" },
+    { src: "/images/9.jpg", alt: "Image 4" },
+    { src: "/images/28.jpg", alt: "Image 5" },
+    { src: "/images/75.jpg", alt: "Image 6" },
+    { src: "/images/57.jpg", alt: "Image 7" },
   ];
 
   return (

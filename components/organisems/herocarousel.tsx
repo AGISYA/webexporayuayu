@@ -1,24 +1,25 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
 const Carousel = () => {
   const carouselData = [
     {
       id: 1,
-      image: "images/bnner.jpg",
-      title: "Welcome to Our Website",
-      description: "Explore the best services and products we offer.",
+      image: "/images/nasgor tektek beef slice.jpg",
+      title: "Welcome to Ayu Ayu",
+      description: "Tradition in every bite",
     },
     {
       id: 2,
-      image: "images/slider-ch2.jpg",
+      image: "/images/73.jpg",
       title: "Quality You Can Trust",
       description: "We prioritize your satisfaction above all.",
     },
     {
       id: 3,
-      image: "images/slider-ch5.webp",
+      image: "/images/48.jpg",
       title: "Join Us Today",
       description: "Become a part of our amazing community.",
     },
@@ -47,10 +48,12 @@ const Carousel = () => {
       >
         {carouselData.map((item) => (
           <div key={item.id} className="w-full h-screen flex-shrink-0 relative">
-            <img
+            <Image
               src={item.image}
               alt={item.title}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover "
+              width={10000}
+              height={10000}
             />
             <div className="absolute md:mx-36 left-0 top-1/2 transform -translate-y-1/2 px-8 py-4 text-white w-full sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4">
               <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold">

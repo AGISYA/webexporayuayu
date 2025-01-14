@@ -3,7 +3,7 @@ import Navbar from "@/components/organisems/navbar";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function FriedChicken() {
+export default function SotoBetawi() {
   return (
     <div className="flex bg-white flex-col min-h-screen">
       <Navbar />
@@ -11,8 +11,8 @@ export default function FriedChicken() {
         {/* Image Section */}
         <div className="w-full h-1/2 relative">
           <Image
-            src="/images/chicken6.jpg"
-            alt="Chicken Package A"
+            src="/images/soto-betawi.jpg"
+            alt="Soto Betawi"
             layout="fill"
             objectFit="cover"
             className="rounded-t-lg"
@@ -21,25 +21,22 @@ export default function FriedChicken() {
 
         {/* Text Section */}
         <div className="flex-grow p-6 flex flex-col justify-between">
-          <h1 className="text-3xl font-bold text-gray-800">Fried Chicken</h1>
+          <h1 className="text-3xl font-bold text-gray-800">Soto Betawi</h1>
           <p className="text-gray-600 text-justify flex-grow">
-            Fried chicken is a popular dish made from chicken pieces that are
-            seasoned, coated in a breading or batter, and then deep-fried or
-            pan-fried to achieve a crispy, golden-brown exterior while keeping
-            the meat tender and juicy on the inside. The chicken is typically
-            marinated or seasoned with spices such as salt, pepper, garlic, and
-            paprika to enhance flavor. It is then coated with a mixture of
-            flour, cornmeal, and sometimes additional spices or herbs. Once
-            coated, the chicken is fried in hot oil until the coating becomes
-            crisp and the chicken is cooked through. Fried chicken is often
-            served with a variety of sides like mashed potatoes, coleslaw,
-            biscuits, or fries, and is enjoyed worldwide, especially in Southern
-            U.S. cuisine, as well as in many other cultures around the globe.
+            Soto Betawi adalah hidangan khas Jakarta yang terdiri dari kuah
+            santan yang gurih dan kaya rasa, dengan isian daging sapi atau
+            jeroan seperti babat, paru, dan hati. Kuahnya dibuat dari campuran
+            santan dan susu yang menghasilkan tekstur lembut dan rasa yang khas.
+            Hidangan ini biasanya disajikan dengan pelengkap seperti irisan
+            tomat, daun bawang, emping, jeruk nipis, serta sambal untuk menambah
+            cita rasa. Soto Betawi mencerminkan kekayaan kuliner Indonesia dan
+            menjadi favorit banyak orang karena rasa dan aromanya yang menggugah
+            selera.
           </p>
 
           <div className="border-t pt-4">
             <Link
-              href="/item/chicken-package-a"
+              href="/item/soto-package-a"
               className="ml-4 text-blue-500 hover:underline"
             >
               Next Item →

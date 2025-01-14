@@ -5,50 +5,50 @@ import Link from "next/link";
 
 const products = [
   {
-    title: "Fried Chicken",
-    imageSrc: "/images/chicken6.jpg",
+    title: "Soto Betawi",
+    imageSrc: "/images/soto betawi.jpg",
     alt: "Product 1",
     slug: "fried-chicken", // Add a slug for each product
   },
   {
-    title: "Chicken Package A",
-    imageSrc: "/images/chicken50.jpg",
+    title: "Mie Goreng",
+    imageSrc: "/images/DSCF0479.jpg",
     alt: "Product 2",
     slug: "chicken-package-a",
   },
   {
-    title: "Chicken Package B",
-    imageSrc: "/images/banner7.jpg",
+    title: "Sate Madura",
+    imageSrc: "/images/sate madura.jpg",
     alt: "Product 3",
     slug: "chicken-package-b",
   },
   {
-    title: "Chicken Package C",
-    imageSrc: "/images/banner10.jpg",
+    title: "Sate Ayu Pedas",
+    imageSrc: "/images/sate ayu pedas.jpg",
     alt: "Product 4",
     slug: "chicken-package-c",
   },
   {
-    title: "Chicken Popcorn",
-    imageSrc: "/images/chicken30.jpg",
+    title: "NasiGoreng Kulit Usus",
+    imageSrc: "/images/nasgor kulit usus.jpg",
     alt: "Product 5",
     slug: "chicken-popcorn",
   },
   {
-    title: "Chicken Crispy",
-    imageSrc: "/images/banner18.jpg",
+    title: "NasiGoreng Tektek Beef Slice",
+    imageSrc: "/images/nasgor tektek beef slice.jpg",
     alt: "Product 6",
     slug: "chicken-crispy",
   },
   {
-    title: "Chicken Wings",
-    imageSrc: "/images/chicken1.jpg",
+    title: "EsTeh Pandan",
+    imageSrc: "/images/es teh pandan.jpg",
     alt: "Product 7",
     slug: "chicken-wings",
   },
   {
-    title: "Chicken Sesame",
-    imageSrc: "/images/chicken54.jpg",
+    title: "Es Kelapa Jeruk",
+    imageSrc: "/images/es kelapa jeruk.jpg",
     alt: "Product 8",
     slug: "chicken-sesame",
   },
@@ -58,9 +58,6 @@ const Product = () => {
   return (
     <section className="py-16 text-center bg-white">
       {/* Title: Enak dan Lembut */}
-      <h1 className="text-4xl font-semibold text-gray-800 mb-6">
-        Enak dan Lembut
-      </h1>
 
       {/* Subtitle: Menu Kami */}
       <h2 className="text-3xl font-medium text-gray-600 mb-4">Menu Kami</h2>
