@@ -8,9 +8,10 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-bold mb-4">About Us</h3>
           <p className="text-gray-400">
-            Our Company is made up of a group of highly skilled and
-            professionals who pays a lot of attention to small details. We’re
-            working to build a future of shared success.
+            Ayu Ayu Nusantara adalah perusahaan yang berfokus pada produk
+            berkualitas tinggi dengan dedikasi untuk memberikan layanan terbaik
+            kepada pelanggan. Kami hadir untuk menciptakan masa depan yang penuh
+            kesuksesan bersama.
           </p>
         </div>
 
@@ -18,19 +19,18 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-bold mb-4">Contact Us</h3>
           <p className="text-gray-400">
-            Jl. Indonesia Raya, Sudirman, Jakarta Selatan, DKI Jakarta,
-            Indonesia, 10150
+            Jl. Ahmad Yani no.1, Garut, Jawa Barat, Indonesia
           </p>
-          <p className="text-gray-400">mail@example.com</p>
-          <p className="text-gray-400">+991-0123456789</p>
+          <p className="text-gray-400">cs@ayuayu.com</p>
+          <p className="text-gray-400">(+62)888 8990 988</p>
         </div>
 
         {/* Working Hours & Social Media */}
         <div className="flex flex-col md:flex-row justify-between">
           <div>
             <h3 className="text-lg font-bold mb-4">Working Hours</h3>
-            <p className="text-gray-400">Mon - Fri: 9am - 5pm</p>
-            <p className="text-gray-400">Sat & Sun: We are closed!</p>
+            <p className="text-gray-400">Mon - Fri: 9am - 6pm</p>
+            <p className="text-gray-400">Sat & Sun: Closed</p>
           </div>
           <div className="mt-6 md:mt-0 md:ml-6">
             <h3 className="text-lg font-bold mb-4">Social Media</h3>
@@ -71,7 +71,7 @@ export default function Footer() {
       <div className="mt-10 border-t border-gray-700 pt-6">
         {/* Footer Note */}
         <p className="text-center text-gray-500">
-          © {new Date().getFullYear()} Our Company. All rights reserved.
+          © {new Date().getFullYear()} Ayu Ayu Nusantara. All rights reserved.
         </p>
       </div>
     </footer>

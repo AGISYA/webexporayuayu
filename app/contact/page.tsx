@@ -19,7 +19,7 @@ const Contact = () => {
           {/* Left: Google Maps */}
           <div className="w-full md:w-1/2 h-full mb-6 md:mb-0">
             <iframe
-              src="https://www.google.com/maps/embed?pb=YOUR_GOOGLE_MAPS_EMBED_URL"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63336.19801941607!2d107.8533808!3d-7.2153724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68b1d24f10a22d%3A0xec8e83f727c67d21!2sToko%20Kue%20Ayu%20Ayu!5e0!3m2!1sen!2sid!4v1673449000000!5m2!1sen!2sid"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -43,10 +43,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-bold text-lg">Main Office</h3>
-                <p>
-                  Jl. Indonesia Raya Merdeka No.45, Jakarta Pusat, DKI Jakarta,
-                  Indonesia, 10110
-                </p>
+                <p>Jl. Ahmad Yani no.1, Garut, Jawa Barat, Indonesia</p>
               </div>
             </div>
             <div className="mb-4 flex items-center">
@@ -73,7 +70,7 @@ const Contact = () => {
         <section
           ref={ref}
           className="relative h-screen bg-fixed bg-cover bg-center"
-          style={{ backgroundImage: "url('/images/banner7.jpg')" }}
+          style={{ backgroundImage: "url('/images/DSCF0498.jpg')" }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
