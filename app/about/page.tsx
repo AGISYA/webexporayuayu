@@ -64,7 +64,7 @@ export default function About() {
       <section
         ref={ref} // Menyambungkan elemen ke useInView
         className="relative h-1/3 bg-fixed bg-cover bg-center"
-        style={{ backgroundImage: "url('/images/DSCF0498.jpg')" }}
+        style={{ backgroundImage: "url('/images/49.jpg')" }}
       >
         {/* Overlay untuk efek gelap */}
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
