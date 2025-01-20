@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function FeedProduct() {
   const images = [
-    { src: "/images/43.jpg", alt: "Image 1" },
-    { src: "/images/70.jpg", alt: "Image 2" },
-    { src: "/images/66.jpg", alt: "Image 3" },
+    { src: "/images/49.jpg", alt: "Image 1" },
+    { src: "/images/48.jpg", alt: "Image 2" },
+    { src: "/images/72.jpg", alt: "Image 3" },
     { src: "/images/9.jpg", alt: "Image 4" },
     { src: "/images/28.jpg", alt: "Image 5" },
     { src: "/images/75.jpg", alt: "Image 6" },

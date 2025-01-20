@@ -11,7 +11,7 @@ export default function MieGoreng() {
         {/* Image Section */}
         <div className="w-full h-1/2 relative">
           <Image
-            src="/images/DSCF0479.jpg" // Ganti dengan gambar Mie Goreng
+            src="/images/DSCF0468.jpg" // Ganti dengan gambar Mie Goreng
             alt="Mie Goreng"
             layout="fill"
             objectFit="cover"

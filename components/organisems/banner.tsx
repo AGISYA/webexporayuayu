@@ -15,7 +15,7 @@ const Banner = () => {
         <div className="w-full sm:w-1/3 lg:w-1/4 text-center">
           <h3 className="text-lg font-semibold mb-4">SARAPAN ?</h3>
           <Image
-            src="/images/edited-9484.jpg"
+            src="/images/edited-9517.jpg"
             alt="Sarapan"
             className="w-full h-auto object-cover rounded-lg shadow-lg"
             width={800}
@@ -39,7 +39,7 @@ const Banner = () => {
         <div className="w-full sm:w-1/3 lg:w-1/4 text-center">
           <h3 className="text-lg font-semibold mb-4">ATAU MAKANAN BERAT?</h3>
           <Image
-            src="/images/DSCF0532.JPG"
+            src="/images/DSCF0550.JPG"
             alt="Makanan Berat"
             className="w-full h-auto object-cover rounded-lg shadow-lg"
             width={800}

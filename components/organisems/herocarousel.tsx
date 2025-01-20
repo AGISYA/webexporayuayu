@@ -7,13 +7,13 @@ const Carousel = () => {
   const carouselData = [
     {
       id: 1,
-      image: "/images/nasgor tektek beef slice.jpg",
+      image: "/images/nasgor tektek beef slice (1).jpg",
       title: "Welcome to Ayu Ayu",
       description: "Tradition in every bite",
     },
     {
       id: 2,
-      image: "/images/73.jpg",
+      image: "/images/72.jpg",
       title: "Quality You Can Trust",
       description: "We prioritize your satisfaction above all.",
     },

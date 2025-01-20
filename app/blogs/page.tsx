@@ -23,7 +23,7 @@ const Blogs = () => {
       excerpt:
         "Mie goreng menjadi pilihan hidangan yang cepat dan penuh rasa. Pelajari cara membuatnya di rumah!",
       url: "/blogs/mie-goreng-nusantara",
-      image: "/images/DSCF0479.jpg",
+      image: "/images/DSCF0468.jpg",
     },
     {
       title: "Rahasia Kelezatan Sate Madura",

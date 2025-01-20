@@ -70,7 +70,7 @@ const Contact = () => {
         <section
           ref={ref}
           className="relative h-screen bg-fixed bg-cover bg-center"
-          style={{ backgroundImage: "url('/images/DSCF0498.jpg')" }}
+          style={{ backgroundImage: "url('/images/65.jpg')" }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 

@@ -6,7 +6,7 @@ export default function FormTheBlog() {
       title: "Bubur Kacang Hijau: Nikmatnya Sarapan Tradisional",
       description:
         "Bubur kacang hijau adalah sajian tradisional khas Indonesia yang menawarkan kelezatan manis dan gurih...",
-      image: "/images/edited-9484.jpg", // Replace with your image URL
+      image: "/images/edited-9517.jpg", // Replace with your image URL
     },
     {
       title: "Sate Madura: Sensasi Bumbu Kacang yang Menggoda",
@@ -18,7 +18,7 @@ export default function FormTheBlog() {
       title: "Soto Betawi: Perpaduan Gurih Santan dan Daging Sapi",
       description:
         "Soto Betawi adalah makanan khas Jakarta yang terkenal dengan kuah santan dan potongan daging sapi...",
-      image: "/images/soto betawi.jpg", // Replace with your image URL
+      image: "/images/DSCF0468.jpg", // Replace with your image URL
     },
     {
       title: "Nasi Goreng Tektek Beef Slice: Gurih dan Menggoda",

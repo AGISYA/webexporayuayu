@@ -104,7 +104,7 @@ const Navbar = () => {
 
         <Link href="/" className="hover:opacity-80 transition duration-200">
           <Image
-            src="/images/Asset 13@300x-8.png"
+            src="/images/Asset 35@300x-8.png"
             alt="Logo"
             width={500}
             height={500}

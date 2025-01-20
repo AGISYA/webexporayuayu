@@ -12,7 +12,7 @@ const products = [
   },
   {
     title: "Mie Goreng",
-    imageSrc: "/images/DSCF0479.jpg",
+    imageSrc: "/images/DSCF0468.jpg",
     alt: "Product 2",
     slug: "mie-goreng",
   },
