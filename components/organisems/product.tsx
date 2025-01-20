@@ -8,49 +8,49 @@ const products = [
     title: "Soto Betawi",
     imageSrc: "/images/soto betawi.jpg",
     alt: "Product 1",
-    slug: "fried-chicken", // Add a slug for each product
+    slug: "soto-betawi", // Add a slug for each product
   },
   {
     title: "Mie Goreng",
     imageSrc: "/images/DSCF0479.jpg",
     alt: "Product 2",
-    slug: "chicken-package-a",
+    slug: "mie-goreng",
   },
   {
     title: "Sate Madura",
     imageSrc: "/images/sate madura.jpg",
     alt: "Product 3",
-    slug: "chicken-package-b",
+    slug: "sate-madura",
   },
   {
     title: "Sate Ayu Pedas",
     imageSrc: "/images/sate ayu pedas.jpg",
     alt: "Product 4",
-    slug: "chicken-package-c",
+    slug: "sate-ayu-pedas",
   },
   {
     title: "NasiGoreng Kulit Usus",
     imageSrc: "/images/nasgor kulit usus.jpg",
     alt: "Product 5",
-    slug: "chicken-popcorn",
+    slug: "nasgor-kulit-usus",
   },
   {
     title: "NasiGoreng Tektek Beef Slice",
     imageSrc: "/images/nasgor tektek beef slice.jpg",
     alt: "Product 6",
-    slug: "chicken-crispy",
+    slug: "nasgor-tektek-beef-slice",
   },
   {
     title: "EsTeh Pandan",
     imageSrc: "/images/es teh pandan.jpg",
     alt: "Product 7",
-    slug: "chicken-wings",
+    slug: "es-teh-pandan",
   },
   {
     title: "Es Kelapa Jeruk",
     imageSrc: "/images/es kelapa jeruk.jpg",
     alt: "Product 8",
-    slug: "chicken-sesame",
+    slug: "es-kelapa-jeruk",
   },
 ];
 

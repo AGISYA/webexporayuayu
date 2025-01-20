@@ -16,7 +16,7 @@ export default function About() {
     <div>
       <Navbar />
       <section className="flex flex-col lg:flex-row items-center justify-center bg-white min-h-screen px-8 lg:px-24">
-        <div className="relative w-full lg:w-1/2 flex justify-center lg:justify-start mt-20 lg:mt-0">
+        <div className="relative w-full  lg:w-1/2 flex justify-center lg:justify-start mt-20 lg:mt-0">
           {/* First Image - Overlapping and in the foreground */}
           <div className="w-72 mx-20 mt-60 h-48 lg:w-96 lg:h-60 relative z-10 shadow-lg">
             <Image
@@ -28,7 +28,7 @@ export default function About() {
             />
           </div>
           {/* Second Image - Background */}
-          <div className="absolute top-1/2 left-1/2 -mx-36 transform -translate-x-1/2 -translate-y-1/2 w-[350px] sm:w-[450px] lg:w-[450px] h-[350px] sm:h-[450px] lg:h-[450px] z-0 shadow-xl">
+          <div className="absolute  top-1/2 left-1/2 md:-mx-36 transform -translate-x-1/2 -translate-y-1/2 w-[350px] sm:w-[450px] lg:w-[450px] h-[350px] sm:h-[450px] lg:h-[450px] z-0 shadow-xl">
             <Image
               src="/images/57.jpg"
               alt="Sate Soto Lontong"

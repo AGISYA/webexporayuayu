@@ -17,7 +17,7 @@ const Contact = () => {
       <div className="bg-white p-6 text-black">
         <div className="flex flex-col md:flex-row h-screen overflow-hidden">
           {/* Left: Google Maps */}
-          <div className="w-full md:w-1/2 h-full mb-6 md:mb-0">
+          <div className="w-full md:w-1/2 h-full mb-6 mt-14 md:mb-0">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63336.19801941607!2d107.8533808!3d-7.2153724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68b1d24f10a22d%3A0xec8e83f727c67d21!2sToko%20Kue%20Ayu%20Ayu!5e0!3m2!1sen!2sid!4v1673449000000!5m2!1sen!2sid"
               width="100%"
@@ -74,7 +74,7 @@ const Contact = () => {
         >
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
-          <div className="relative flex flex-col lg:flex-row justify-around items-center py-16 text-white container mx-auto h-full">
+          <div className=" mt-20 md:mt-0 relative flex flex-col lg:flex-row justify-around items-center py-16 text-white container mx-auto h-full">
             <div className="flex flex-col items-center">
               <h2 className="text-5xl font-bold">
                 Got questions? Please Contact us!
