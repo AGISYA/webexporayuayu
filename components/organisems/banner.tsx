@@ -7,7 +7,7 @@ const Banner = () => {
     <section className="flex flex-col items-center text-black bg-white gap-8 py-8">
       {/* Main Title */}
       <h2 className="text-2xl font-bold text-center mb-8">
-        MANU APA AJA SIH DI AYU AYU?
+        ADA MENU APA AJA SIH DI AYU AYU?
       </h2>
 
       <div className="flex flex-wrap justify-center gap-8">

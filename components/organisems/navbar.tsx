@@ -104,7 +104,7 @@ const Navbar = () => {
 
         <Link href="/" className="hover:opacity-80 transition duration-200">
           <Image
-            src="/images/Asset 35@300x-8.png"
+            src="/images/Asset 13@300x-8.png"
             alt="Logo"
             width={500}
             height={500}
@@ -164,7 +164,7 @@ const Navbar = () => {
       </div>
 
       {isMenuOpen && (
-        <ul className="md:hidden mt-4 space-y-4 text-center bg-black py-4 border-t border-gray-800">
+        <ul className="md:hidden mt-4 space-y-4 text-center bg-[#452b14] py-4 border-t border-gray-800">
           <li>
             <Link
               href="/"
